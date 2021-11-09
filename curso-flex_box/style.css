@@ -1,0 +1,9 @@
+.flex{
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid #505;
+}
+.item_flex{
+    background-color: aqua;
+    margin: 5px;
+}
