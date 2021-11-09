@@ -1,9 +1,90 @@
-.flex{
+
+.flex1{
+    display: flex;
     max-width: 300px;
     padding: 10px;
     border: 2px solid #505;
+    margin-bottom: 15px;
 }
+
 .item_flex{
+    
     background-color: aqua;
     margin: 5px;
+}
+
+.flex2{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.item{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+
+}
+.flex3{
+    flex-direction: row-reverse;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.item1{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.flex4{
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+.item2{
+    background-color: indianred;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+
+}
+.flex5{
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.item3{
+    background-color: seagreen;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+
 }
