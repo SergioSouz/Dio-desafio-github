@@ -5,6 +5,7 @@
     padding: 10px;
     border: 2px solid #505;
     margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 
 .item_flex{
